@@ -83,8 +83,8 @@ fn to_rust(mut f: Rfunction) {
 	}
 
 	/* 
-		返り値の型
-		返り値が存在しない場合は処理を行わない
+	   返り値の型
+	   返り値が存在しない場合は処理を行わない
 	*/
 	if f.returntype != None {
 		
